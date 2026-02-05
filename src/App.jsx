@@ -6,9 +6,11 @@ export default function App() {
     <>
       <div className="auth-container">
         <div className="auth-background">
-          <div className="gradient-orb-1"></div>
-          <div className="gradient-orb-2"></div>
-          <div className="gradient-orb-3"></div>
+        <div className="gradient-orb orb-1"></div>
+        <div className="gradient-orb orb-2"></div>
+        <div className="gradient-orb orb-3"></div>
+
+          
         </div>
       </div>
     </>

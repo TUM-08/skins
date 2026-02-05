@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .auth-container{
   min-height: 100vh;
   display: flex;
@@ -21,4 +27,39 @@
   opacity: 0.3;
   z-index: 1;
   animation: float 20s ease-in-out infinite;
+}
+.orb-1{
+  width: 500px;
+  height: 500px;
+  background: radial-gradient (circle, #ff6b9d, 0%, transparent 70% );
+  top: -10%;
+  left: -10%;
+  animation-delay: 0S;
+}
+.orb-2{
+  width: 400px;
+  height: 400px;
+  background: radial-gradient (circle, #4158d0, 0%, transparent 70% );
+  bottom: -5%;
+  right: -5%;
+  animation-delay: 5S;
+}
+.orb-3{
+  width: 350px;
+  height: 350px;
+  background: radial-gradient (circle, #c850c0, 0%, transparent 70% );
+  top: 50%;
+  left: 50%;
+  animation-delay: 10S;
+}
+@keyframes float{
+  0%,100%{
+    transform: translate(0, 0) scale(1);
+  }
+  33%{
+    transform: translate(50px, -50px) scale(1.2);
+  }
+  66%{
+    transform: translate(-30px, 30px) scale(0.7);
+  }
 }
