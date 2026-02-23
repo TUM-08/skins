@@ -170,4 +170,46 @@ input:hover{
   font-weight: 600;
   color: #fff;
   background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #2a1f3a 100%);
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.05rem;
+  box-shadow: 0 10px 30px rgba(116, 33, 241, 0.3);
+  text-transform: uppercase;
+  width: 100%;
+}
+.submit-btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(116, 33, 241, 0.4);
+}
+.submit-btn:active{
+  transform:translateY(0);
+}
+.auth-footer{
+  margin-top: 2rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1)
+}
+.auth-footer p{
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:0.5rem;
+}
+.toggle-btn{
+  background: none;
+  border:none;
+  color: #ff6b9d;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  font-family: 'Outfit', sans-serif;
+}
+.toggle-btn:hover{
+  color: #ff8fb3;
 }
